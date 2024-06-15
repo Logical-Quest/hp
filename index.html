@@ -1,0 +1,1589 @@
+<!DOCTYPE html>
+<html>  
+    
+<head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hyperlearn Prodigy Institute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Hind+Siliguri&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/styles.css">
+      <!-- Fontawesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Baloo+Da');
+      @import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/bensen-handwriting/stylesheet.css');
+      @import url('https://fonts.googleapis.com/css?family=Galada');
+      @import url('https://cdn.rawgit.com/sh4hids/bangla-web-fonts/lal-sabuj-normal/stylesheet.css');
+    
+    body {
+      background: #373B44;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, #4286f4, #373B44);
+      background: #2C3E50;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      text-align: center;
+  }
+  
+  /* Add these styles for the gradient background to the Home and Blogs sections */
+  #home,
+  #blog {
+      background: none; /* Remove existing background color or image */
+  }
+
+  #bloga {
+      background: red; /* Remove existing background color or image */
+  }
+  
+
+  
+  .title-head {
+    color: #5DADE2; /* Keep the color for "Logical Quest" */
+    font-family: 'Nunito', sans-serif; /* Use the font family for "Our Blogs" */
+    font-weight: 700;
+    font-size: 40px;
+}
+.about {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center; /* Align the "About Us" text to the left */
+}
+
+.contact {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center; /* Align the "About Us" text to the left */
+}
+  
+.info {
+    color: #ffffff;
+    text-align: left; /* Align the "About Us" text to the left */
+}
+  
+.card-body-head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+  }
+  
+  .title-head {
+      color: #2471A3;
+  }
+  
+  .title-text {
+      font-size: 18px;
+  }
+  .about-text {
+      font-size: 18px;
+  }
+  .card-body {
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .card-text {
+      text-align: justify;
+  }
+  
+  .card-title {
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .title {
+      font-family: 'Nunito', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      color: #5DADE2;
+  }
+  .titleo {
+      font-family: 'Nunito', sans-serif;
+      color: #5DADE2;
+  }
+  .titleb {
+      font-family: 'Nunito', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  .profile-card-img-top {
+      width: 100%;
+      border-radius:5%;
+      margin: 0 auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      position: relative;
+      top: 100px;
+      z-index: 1;
+  }
+    
+  .profile-card {
+      padding: 6.5em 0.5em 0.5em;
+      text-align: center;
+      border-radius: 2em;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  }
+    
+  .profile-card-title {
+      font-family: 'Nunito', sans-serif;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-align: left;
+      color: #002fff;
+  }
+    
+  .profile-card-text {
+      text-align: left;
+  }
+    
+  .contact-text {
+      text-align: left;
+  }
+    
+  .btn-primary {
+      border-radius: 2em;
+  }
+
+  
+
+
+
+  .button-container {
+  display: flex;
+  justify-content: space-between; /* Aligns items with space in between */
+  max-width: 400px; /* Adjust max-width to your container width */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #100571;
+}
+
+.text-bg-dark {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.text-bg-dark:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+  .profile-holder {
+      margin: -80px 0 0 0;
+  }
+  .view-all-button {
+      border-radius: 2em;
+  }
+  .resources-bg {
+      background-color: rgb(234, 235, 238);
+      text-align: center;
+      border-radius: 2em;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .blogs-bg {
+      background-color: rgb(234, 235, 238);
+  }
+  
+  footer {
+      background-color: #060533;
+      color: #f5f5f5;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+  
+  footer a:hover {
+      color: aqua;
+  }
+  
+  .footer-social {
+      margin: 20px 0;
+  }
+  .bengali-text {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        .embedded-video-16-9 {
+  width:  90vw; /* Sets the width of the video to 90% of the viewport width */
+  height: 50.625vw; /* Sets the height of the video to 50.625% of the viewport width (maintaining 16:9 aspect ratio) */
+  margin: 0 auto; /* Centers the video horizontally */
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid white;
+  margin: 10px 0;
+}
+
+
+.f-play-video{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.play-button{
+  width:50px;
+}
+
+
+.nav-link:hover {
+  color: blue; /* Change the color to blue when hovering */
+}
+
+.nav-item {
+  transition: transform 0.3s ease; /* Apply transition effect to transform property */
+}
+
+.nav-item:hover {
+  transform: translateY(-5px); /* Move the item up by 5px when hovering */
+}
+
+@media (min-width: 893px) {
+  .embedded-video-16-9 {
+    width: 45vw; /* Sets the width of the video to 45% of the viewport width for screen widths equal to or larger than 893px */
+    height: 25.3125vw; /* Sets the height of the video to 25.3125% of the viewport width (maintaining 16:9 aspect ratio) for screen widths equal to or larger than 893px */
+  }
+}
+
+
+
+
+        .slider {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    .slides img {
+      width: 100vw; /* 100% of the viewport width */
+      height: auto;
+    }
+
+    /* Media queries for responsiveness */
+    @media (max-width: 1200px) {
+      .slides img {
+        width: 100vw; /* Full width of the viewport */
+      }
+    }
+
+    @media (max-width: 768px) {
+      .slides img {
+        width: 100vw; /* Full width of the viewport */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .slides img {
+        width: 100vw; /* Full width of the viewport */
+      }
+    }
+
+.wrapper {
+  position: relative;
+  width: 80vw;
+  transform:  translate(-50%);
+  top:50%;
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.containerc {
+  width: 28vmin;
+  height: 30vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: relative;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background-color: #21242b;
+  border-bottom: 8px solid #188cf9;
+}
+i{
+  color: #188cf9;
+  font-size: 2.5em;
+  text-align: center;
+
+}
+
+span.num {
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+span.text {
+  color: #e0e0e0;
+  font-size: 1.1em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+@media screen and (max-width: 768px) {
+  .wrapper{
+    width: 90vw;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .containerc {
+    width: calc(50% -40px);
+    height: 30vmin;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper{
+    gap: 15px;
+  }
+
+  .containerc {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
+}
+
+.btn:hover {
+            background-color: #072b50; /* Darker shade for hover effect */
+            transform: scale(1.05); /* Slight scaling effect on hover */
+        }
+
+.btn {
+  box-shadow: 0 4px 6px rgba(0.2, 0.2, 0.2, 0.2); 
+}
+
+
+
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #003153;
+  --color-outline: #ff145b80;
+  --color-shadow: #00000080;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 15px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+/*---------------------------campus------------------------------*/
+
+
+.campus{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;       
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position:relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width:100%;
+    display: block;
+}
+.layer{
+    background: trasparent;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: o;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color:#fff;
+    font-size:26px;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+@media screen and (max-width: 992px) {
+  .campus-col {
+    flex-basis: 48%; /* Adjust the column width for medium screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campus-col {
+    flex-basis: 100%; /* Display columns as full-width for small screens */
+  }
+}
+
+
+
+
+
+
+
+.card-containerc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cardc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cardc:hover {
+  background-color: #333; /* Change background color on hover */
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+}
+.cardc img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.cardc p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.admission {
+    background-color: #031571;
+}
+
+.hsc {
+    background-color: #6b051d;
+}
+
+.class-10 {
+    background: linear-gradient(180deg, #8B5CF6, #A78BFA);
+}
+
+.class-9 {
+    background: linear-gradient(180deg, #3B82F6, #60A5FA);
+}
+
+.class-8 {
+    background: linear-gradient(180deg, #F59E0B, #FBBF24);
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .cardc {
+        width: 130px;
+        height: 180px;
+    }
+
+    .cardc p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cardc {
+        width: 120px;
+        height: 170px;
+    }
+
+    .cardc p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cardc {
+        width: 100px;
+        height: 150px;
+    }
+
+    .cardc p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-containerc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardc {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .cardc img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cardc p {
+        font-size: 20px;
+    }
+}
+.bengali-texta{
+  color: #5DADE2;
+  font-family: 'Baloo Da', cursive;
+}
+.bengali-textb{
+  font-family: 'Baloo Da', cursive;
+}
+
+
+<!-----Video------>
+
+.containerv {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.thumbnail {
+    width: 85%; /* Occupy full width of its container */
+    max-width: 85%; /* Ensure image does not exceed its natural size */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    border: 5px solid #031571; /* Red border around the image */
+    border-radius: 10px; /* Rounded corners */
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center align horizontally */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .close {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modal-content {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .close {
+        font-size: 20px;
+    }
+}
+
+
+
+        <!-----Video End------->
+
+.card-containere {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+}
+
+.carde {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.titlee {
+  color: #d3d3d3;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitlee, .datee {
+  color: #d3d3d3;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.button-containere {
+  margin: 20px 0;
+}
+
+.buttone {
+  display: inline-block;
+  background-color: #d6336c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px 0;
+  width: 55%;
+}
+
+.button.mcqe {
+  background-color: #d6336c;
+}
+
+.button.writtene {
+  background-color: #d6336c;
+}
+
+.footere {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  border-top: 1px solid #d3d3d3;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-linke {
+  color: #d3d3d3;
+  text-decoration: none;
+  margin: 0 10px; /* Add space between the links */
+  font-weight: bold; /* Make the text bold */
+}
+
+.footer-linke:hover {
+  text-decoration: none; /* Ensure there's no underline on hover */
+}
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .carde {
+    width: calc(50% - 20px); /* Two cards per row on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carde {
+    width: calc(100% - 20px); /* Single card per row on very small screens */
+  }
+}
+
+
+
+<!-------Qna-->
+
+#cardsContainerx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cardx {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title-head {
+  color: #5DADE2;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card1 {
+  background-color: #f9f9f9;
+}
+
+.card2 {
+  background-color: #e6e6e6;
+}
+
+.subjectName {
+  color: #4682B4;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.subjectNamea {
+  color: #DC143C;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.difference {
+  color: #DC143C;
+  font-size: 35px;
+  padding: 0;
+  height: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.buttonx {
+  background: #4169E1;
+  border-radius: 999px;
+  box-shadow: #4169E1 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  text-decoration: none;
+}
+
+.buttonx:hover {
+  background-color: #27408B;
+  box-shadow: #27408B 0 10px 20px -10px;
+}
+
+.titleo {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .cardx {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .subjectName, .difference {
+    font-size: 23px;
+  }
+  .buttonx {
+    font-size: 22px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #cardsContainerx {
+    display: block;
+  }
+  .cardx {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .subjectName, .difference {
+    font-size: 22px;
+  }
+  .buttonx {
+    font-size: 21px;
+    padding: 6px 12px;
+  }
+}
+
+
+.containerh {
+    position: relative;
+    display: inline-block;
+  }
+
+  .imageh {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .containerh.show .overlay {
+    display: block;
+  }
+
+
+
+.containerm {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+
+.sliderm {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.mentor {
+  box-sizing: border-box;
+  padding: 20px;
+  flex: 0 0 25%;
+}
+.mentor img {
+  width: 100%;
+  border-radius: 10px;
+}
+.mentor p {
+  margin: 10px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mentor span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+}
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .mentor {
+      flex: 0 0 50%;
+  }
+}
+@media (max-width: 480px) {
+  .mentor {
+      flex: 0 0 100%;
+  }
+}
+
+
+
+
+
+
+
+  
+  </style>
+  </head>
+</head>
+    
+<body>
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+              <img src="img/logo.png" alt="Logo" width="auto" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="https://logical-quest.github.io/bd/">𝐇𝐨𝐦𝐞</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">𝐂𝐨𝐮𝐫𝐬𝐞</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#advisors">𝐄𝐧𝐫𝐨𝐥𝐥</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://logical-quest.github.io/HSC-Q-A/">𝐐 & 𝐀</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#members">𝐄𝐱𝐚𝐦</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://logical-quest.github.io/HSC-Teacher-Portal/">𝐀𝐝𝐦𝐢𝐧</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+<!------- Home ------->
+
+        <div class="p-3" id="home">
+            <div class="card mb-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="slider">
+                    <div class="slides">
+                    <img src="img/tutorial.png" class="img-fluid rounded" alt="...">
+                    <img src="img/header.png" class="img-fluid rounded" alt="...">
+                    <img src="img/exam.png" class="img-fluid rounded" alt="...">
+                    </div>
+                 </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="card-body card-body-head">
+                    <h1 class="card-title title-head">Hyperlearn Prodigy Institute</h1>
+                    <p class="card-text title-text bengali-text">একাডেমিক পড়াশোনা, স্কিল ডেভেলপমেন্ট, ভর্তি পরীক্ষাসহ
+                      যেকোনো প্রতিযোগিতামূলক পরীক্ষার প্রস্তুতির সকল সমাধান পাওয়া যাবে এখানে। ঘরে বসেই
+                      ক্লাসের পড়া ভালোভাবে বুঝতে অভিজ্ঞ মেন্টরদের ভিডিও লেসন, প্র্যাকটিস 𝐌𝐂𝐐 টেস্ট, সার্বক্ষণিক
+                      𝐐 & 𝐀 সেবা ও নোটের মাধ্যমে শিক্ষার্থীদের এগিয়ে রাখতে এর যাত্রা শুরু।
+                  </p>
+                  <div class="btn-conteiner">
+                    <a class="btn-content" href="#">
+                      <span class="btn-title">𝐋𝐞𝐭'𝐬 𝐓𝐚𝐥𝐤</span>
+                      <span class="icon-arrow">
+                        <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path id="arrow-icon-one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                            <path id="arrow-icon-two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                            <path id="arrow-icon-three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                          </g>
+                        </svg>
+                      </span> 
+                    </a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var modal = document.getElementById("videoModal");
+      var openModalBtn = document.querySelectorAll("#openModalBtn");
+      var closeBtn = document.querySelector(".close");
+      var videoFrame = document.getElementById("videoFrame");
+      var videoURL = "https://www.youtube.com/embed/-y-y-elPK9s?si=cgnUehYLSTOg_alN";
+
+      openModalBtn.forEach(function(button) {
+          button.addEventListener("click", function() {
+              videoFrame.src = videoURL;
+              modal.style.display = "block";
+          });
+      });
+
+      closeBtn.addEventListener("click", function() {
+          modal.style.display = "none";
+          videoFrame.src = "";
+      });
+
+      window.addEventListener("click", function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+              videoFrame.src = "";
+          }
+      });
+  });
+</script>--->
+
+
+
+
+
+
+
+
+<!------------Course------------->
+
+ <!-- Blogs -->
+
+ <div style="text-align: center;">
+  <h2 class="contact">Our Courses</h2>
+</div>
+<div class="p-3 blogs-bg" id="blog">
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+        <div class="card">
+          <img src="https://placehold.co/600x300/png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">𝗖𝗔𝗗 𝗠𝗮𝘀𝘁𝗲𝗿𝘆: 𝗔 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗔𝘂𝘁𝗼𝗖𝗔𝗗</h3>
+            <p class="card-text">Key features: <br>
+              ★ Cutting-Edge Curriculum: "Stay ahead with a curriculum designed by industry expert<br> 
+              ★ Hands-On training: Get practical experience with real world projects<br>
+            <a href="#" class="btn text-bg-dark">Details</a>
+            <a href="#" class="btn text-bg-dark">Enroll</a>
+          </div>
+          <div class="card-footer text-body-secondary">
+            October 23, 2023
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+        <div class="card">
+          <img src="https://placehold.co/600x300/png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Basic Components of Automobiles</h3>
+            <p class="card-text">Weekly Session for 20 and 21 Series had been conducted today. Today's session topic was "Basic Components of Automobiles". The session was successfuly held.</p>
+            <a href="#" class="btn text-bg-dark">Details</a>
+            <a href="#" class="btn text-bg-dark">Enroll</a>
+          </div>
+          <div class="card-footer text-body-secondary">
+            October 15, 2023
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+        <div class="card">
+          <img src="https://placehold.co/600x300/png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Our esteemed Advisor Panel</h3>
+            <p class="card-text">Guiding us on the road to excellence! The fuel that keeps our passion running. Our esteemed Advisor Panel plays a crucial role in shaping SAE RUET's journey.</p>
+            <a href="#" class="btn text-bg-dark">Details</a>
+            <a href="#" class="btn text-bg-dark">Enroll</a>
+          </div>
+          <div class="card-footer text-body-secondary">
+            Start: 07/10/2023
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+<div style="text-align: center;">
+                <h2 class="contact">Our Services</h2>
+              </div>
+
+
+
+  <div id="cardsContainerx">
+    <div class="cardx card1">
+      <div class="subjectName">Tutorial</div><br>
+      <div class="subjectNamea"></div>
+      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+    </div>
+    <div class="cardx card2">
+      <div class="subjectName">Q & A</div><br>
+      <div class="subjectNamea"></div>
+      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+    </div>
+    <div class="cardx card2">
+      <div class="subjectName">Exam</div><br>
+      <div class="subjectNamea"></div>
+      <a href="https://logical-quest.github.io/Q-A-HSC/" target="_self" class="buttonx">𝐄𝐧𝐭𝐞𝐫</a><br><br>
+    </div>
+  </div>
+
+        <br><br>
+
+
+      <!---Counter-->
+
+<div class="wrapper">
+  <div class="containerc">
+    <i class="fab fa-"></i>
+    <span class="num" data-val="2">00</span>
+    <span class="text">Courses</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-"></i>
+    <span class="num" data-val="20">00</span>
+    <span class="text">Tutorials</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-"></i>
+    <span class="num" data-val="165">00</span>
+    <span class="text">Q & A</span>
+  </div>
+  <div class="containerc">
+    <i class="fab fa-chalkboard-user"></i>
+    <span class="num" data-val="15">00</span>
+    <span class="text">Teachers</span>
+  </div>
+</div>
+<!-- Script -->
+<script>
+
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+
+valueDisplays.forEach((valueDisplay) => {
+let startValue = 0;
+let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+let duration = Math.floor(interval / endValue);
+let counter = setInterval(function () {
+  startValue +=1;
+  valueDisplay.textContent = startValue;
+  if (startValue == endValue) {
+    clearInterval(counter);
+  }
+}, duration);
+});
+</script>
+
+<br><br>
+
+
+
+
+<!-------Mentors-------->
+
+<div class="containerm">
+  <h2 class="contact">Our Mentors</h2>
+<div class="sliderm" id="sliderm">
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Md Harun Or Rashid">
+      <p>Fardin Hussain</p>
+      <span>BUET, EEE</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Tasnim Hayat">
+      <p>Reshad Mahamud</p>
+      <span>RUET, ME</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Muaz Talha">
+      <p>Mosiur Rahman</p>
+      <span>BUET, IPE</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="M M Yeamin">
+      <p>M M Yeamin</p>
+      <span>Senior Educator</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Md Harun Or Rashid">
+      <p>Md Harun Or Rashid</p>
+      <span>Senior Educator</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Tasnim Hayat">
+      <p>Tasnim Hayat</p>
+      <span>Senior Educator</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="Muaz Talha">
+      <p>Muaz Talha</p>
+      <span>Senior Educator</span>
+  </div>
+  <div class="mentor">
+      <img src="img/fardin.jpg" alt="M M Yeamin">
+      <p>M M Yeamin</p>
+      <span>Senior Educator</span>
+  </div>
+</div>
+<div class="controls">
+  <button onclick="prevSlide()">&#10094;</button>
+  <button onclick="nextSlide()">&#10095;</button>
+</div>
+</div>
+
+<script>
+const slider = document.getElementById('sliderm');
+const totalMentors = document.querySelectorAll('.mentor').length;
+let index = 0;
+
+function getVisibleMentors() {
+  if (window.innerWidth <= 480) {
+      return 1;
+  } else if (window.innerWidth <= 768) {
+      return 2;
+  } else {
+      return 4;
+  }
+}
+
+function nextSlide() {
+  const visibleMentors = getVisibleMentors();
+  if (index < totalMentors - visibleMentors) {
+      index++;
+  } else {
+      index = 0;
+  }
+  slider.style.transform = `translateX(${-index * (100 / visibleMentors)}%)`;
+}
+
+function prevSlide() {
+  const visibleMentors = getVisibleMentors();
+  if (index > 0) {
+      index--;
+  } else {
+      index = totalMentors - visibleMentors;
+  }
+  slider.style.transform = `translateX(${-index * (100 / visibleMentors)}%)`;
+}
+
+setInterval(nextSlide, 3000); // Change slide every 3 seconds
+
+window.addEventListener('resize', () => {
+  // Reset index to 0 on resize to prevent misalignment
+  index = 0;
+  slider.style.transform = 'translateX(0)';
+});
+</script>
+
+
+
+
+<br><br>
+
+
+
+
+
+
+
+
+
+        <footer>
+          <div class="container">
+            <div class="row">          
+          
+              <div class="col-lg-4 col-sm-12" style="text-align: left;">
+                <h2 class="contact">Get In Touch</h2>
+              </div>
+          
+              <div class="col-lg-4 col-sm-12" style="text-align: left;">
+                <p></p>
+                <p></p>
+              </div>
+
+              <div class="col-lg-4 col-sm-12" style="text-align: left;">
+                <p><b>Email:</b> <a href="mailto:logical.quest.bd.2023@gmail.com">abc@gmail.com</a></p>
+                <p><b>Call us:</b> <a href="tel:+8801728174078">+88017xxxxxxxx</a></p>
+              </div>
+          
+            </div>
+          </div>
+                <div class="text-center py-3">
+        
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512"><style>svg{fill:#f5f5f5}</style><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512"><style>svg{fill:#f5f5f5}</style><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 448 512"><style>svg{fill:#f5f5f5}</style><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                </div>
+                <br><br>
+              </div>
+              </div>
+        
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <div class="line"></div><h6>
+                  𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 &copy; 𝐇𝐏 | 𝟐𝟎𝟐𝟒<br>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
+        
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="resources/script.js"></script>
+
+    <script>
+      const slides = document.querySelector('.slides');
+      const slideImages = slides.querySelectorAll('img');
+      let currentIndex = 0;
+  
+      function slideNext() {
+        currentIndex = (currentIndex + 1) % slideImages.length;
+        updateSlidePosition();
+      }
+  
+      function updateSlidePosition() {
+        const slideWidth = slideImages[0].clientWidth;
+        const newPosition = -currentIndex * slideWidth;
+        slides.style.transform = `translateX(${newPosition}px)`;
+      }
+  
+      setInterval(slideNext, 3000); // Change image every 3 seconds
+    </script>
+
+</body>
+    
+    
+</html>
